@@ -6,8 +6,6 @@ class people::charleshbaker {
 
   $no_sudo_cask_packages = [
     'adium',
-    'amazon-workspaces',
-    'atom',
     'dropbox',
     'evernote',
     'clipmenu',
@@ -16,15 +14,17 @@ class people::charleshbaker {
     'hipchat',
     'iterm2',
     'quicksilver',
-    'textmate',
-    'textwrangler',
     'vlc',
   ]
 
   ## Install these with Cask - http://caskroom.io
 #  $cask_packages = [
+#    'amazon-workspaces',
+#    'atom',
 #    'github-desktop',
 #    'sourcetree',
+#    'textmate',
+#    'textwrangler',
 #    'vagrant',
 #    'virtualbox',
 #  ]
