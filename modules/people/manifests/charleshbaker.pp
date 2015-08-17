@@ -6,7 +6,6 @@ class people::charleshbaker {
 
   ## Install these with Cask - http://caskroom.io
   $cask_packages = [
-    'dropbox',
     'evernote',
     'firefox',
     'flux',
