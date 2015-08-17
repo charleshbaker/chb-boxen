@@ -1,6 +1,6 @@
 class people::charleshbaker {
 
-#  include atom # requires atom module in Puppetfile
+  include atom # requires atom module in Puppetfile
   include brewcask # requires brewcask module in Puppetfile
   include chrome   # requires chrome module in Puppetfile
   include textmate
