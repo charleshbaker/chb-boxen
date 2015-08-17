@@ -1,8 +1,11 @@
 class people::charleshbaker {
 
-  include zsh   # requires zsh module in Puppetfile
-  include chrome   # requires chrome module in Puppetfile
+  include atom # requires atom module in Puppetfile
   include brewcask # requires brewcask module in Puppetfile
+  include chrome   # requires chrome module in Puppetfile
+  include textmate
+  include textwrangler
+  include zsh   # requires zsh module in Puppetfile
 
   $no_sudo_cask_packages = [
     'adium',
