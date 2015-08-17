@@ -4,14 +4,20 @@ class people::charleshbaker {
   include chrome   # requires chrome module in Puppetfile
   include brewcask # requires brewcask module in Puppetfile
 
+  $no_sudo_cask_packages = [
+    'dropbox',
+    'evernote',
+  ]
+
   ## Install these with Cask - http://caskroom.io
   $cask_packages = [
-    'evernote',
+    'clipmenu',
     'firefox',
     'flux',
     'github',
     'hipchat',
     'iterm2',
+    'quicksilver',
     'vagrant',
     'virtualbox',
     'vlc',
