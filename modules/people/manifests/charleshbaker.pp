@@ -15,19 +15,19 @@ class people::charleshbaker {
     'iterm2',
     'quicksilver',
     'vagrant',
+    'virtualbox',
     'vlc',
   ]
 
   ## Install these with Cask - http://caskroom.io
-  $cask_packages = [
-    'virtualbox',
-  ]
-
-  package { $cask_packages:
-    ensure        => present,
-    provider      => 'brewcask',
-    require       => Sudoers[$::boxen_user],
-  }
+#  $cask_packages = [
+#  ]
+#
+#  package { $cask_packages:
+#    ensure        => present,
+#    provider      => 'brewcask',
+#    require       => Sudoers[$::boxen_user],
+#  }
 
   package { $no_sudo_cask_packages:
     ensure       => present,
