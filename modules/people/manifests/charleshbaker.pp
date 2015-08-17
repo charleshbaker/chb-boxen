@@ -29,7 +29,7 @@ class people::charleshbaker {
     require       => Sudoers[$::boxen_user],
   }
 
-  package { $no_sudo_cask_packages = [
+  package { $no_sudo_cask_packages:
     ensure       => present,
     provider     => 'brewcask',
   }
