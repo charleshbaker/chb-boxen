@@ -7,11 +7,11 @@ class people::charleshbaker {
   $no_sudo_cask_packages = [
     'dropbox',
     'evernote',
+    'clipmenu',
   ]
 
   ## Install these with Cask - http://caskroom.io
   $cask_packages = [
-    'clipmenu',
     'firefox',
     'flux',
     'github',
@@ -27,6 +27,11 @@ class people::charleshbaker {
     ensure        => present,
     provider      => 'brewcask',
     require       => Sudoers[$::boxen_user],
+  }
+
+  package { $no_sudo_cask_packages = [
+    ensure       => present,
+    provider     => 'brewcask',
   }
 
 }
