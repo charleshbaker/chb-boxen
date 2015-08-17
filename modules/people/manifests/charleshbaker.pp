@@ -8,15 +8,15 @@ class people::charleshbaker {
     'dropbox',
     'evernote',
     'clipmenu',
+    'firefox',
+    'flux',
+    'hipchat',
+    'iterm2',
   ]
 
   ## Install these with Cask - http://caskroom.io
   $cask_packages = [
-    'firefox',
-    'flux',
     'github',
-    'hipchat',
-    'iterm2',
     'quicksilver',
     'vagrant',
     'virtualbox',
