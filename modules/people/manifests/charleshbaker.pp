@@ -17,6 +17,7 @@ class people::charleshbaker {
     'hipchat',
     'iterm2',
     'quicksilver',
+    'textwrangler',
     'vlc',
   ]
 
@@ -27,7 +28,6 @@ class people::charleshbaker {
 #    'github-desktop',
 #    'sourcetree',
 #    'textmate',
-#    'textwrangler',
 #    'vagrant',
 #    'virtualbox',
 #  ]
