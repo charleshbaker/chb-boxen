@@ -14,12 +14,12 @@ class people::charleshbaker {
     'hipchat',
     'iterm2',
     'quicksilver',
+    'vagrant',
     'vlc',
   ]
 
   ## Install these with Cask - http://caskroom.io
   $cask_packages = [
-    'vagrant',
     'virtualbox',
   ]
 
