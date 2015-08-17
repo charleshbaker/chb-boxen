@@ -17,6 +17,7 @@ class people::charleshbaker {
     'iterm2',
     'quicksilver',
     'textmate',
+    'textwrangler',
     'vlc',
   ]
 
