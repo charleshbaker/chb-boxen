@@ -4,7 +4,7 @@ class people::charleshbaker {
   include brewcask # requires brewcask module in Puppetfile
   include chrome   # requires chrome module in Puppetfile
   include textmate
-  include textwrangler
+#  include textwrangler
   include zsh   # requires zsh module in Puppetfile
 
   $no_sudo_cask_packages = [
