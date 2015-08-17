@@ -5,21 +5,25 @@ class people::charleshbaker {
   include brewcask # requires brewcask module in Puppetfile
 
   $no_sudo_cask_packages = [
+    'adium',
+    'amazon-workspaces',
+    'atom',
     'dropbox',
     'evernote',
     'clipmenu',
     'firefox',
     'flux',
-    'github-desktop',
     'hipchat',
     'iterm2',
     'quicksilver',
-    'sourcetree',
+    'textmate',
     'vlc',
   ]
 
   ## Install these with Cask - http://caskroom.io
 #  $cask_packages = [
+#    'github-desktop',
+#    'sourcetree',
 #    'vagrant',
 #    'virtualbox',
 #  ]
