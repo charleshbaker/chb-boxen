@@ -21,6 +21,7 @@ class people::charleshbaker {
   package { $cask_packages:
     ensure        => present,
     provider      => 'brewcask',
+    require       => Sudoers[$::boxen_user],
   }
 
 }
