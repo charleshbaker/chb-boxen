@@ -10,17 +10,18 @@ class people::charleshbaker {
     'clipmenu',
     'firefox',
     'flux',
-    'github',
+    'github-desktop',
     'hipchat',
     'iterm2',
     'quicksilver',
-    'vagrant',
-    'virtualbox',
+    'sourcetree',
     'vlc',
   ]
 
   ## Install these with Cask - http://caskroom.io
 #  $cask_packages = [
+#    'vagrant',
+#    'virtualbox',
 #  ]
 #
 #  package { $cask_packages:
