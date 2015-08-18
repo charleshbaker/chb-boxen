@@ -15,6 +15,7 @@ class people::charleshbaker {
     'clipmenu',
     'firefox',
     'flux',
+    'gimp',
     'hipchat',
     'iterm2',
     'quicksilver',
