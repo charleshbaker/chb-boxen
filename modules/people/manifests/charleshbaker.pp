@@ -21,7 +21,6 @@ class people::charleshbaker {
     'iterm2',
     'quicksilver',
     'textwrangler',
-    'tmux',
     'vagrant',
     'virtualbox',
     'vlc',
