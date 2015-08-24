@@ -20,6 +20,7 @@ class people::charleshbaker {
     'hipchat',
     'iterm2',
     'quicksilver',
+    'remote-desktop-connection',
     'textwrangler',
     'vagrant',
     'virtualbox',
