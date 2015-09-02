@@ -20,6 +20,7 @@ class people::charleshbaker {
     'gimp',
     'hipchat',
     'iterm2',
+    'kvirc',
     'quicksilver',
     'textwrangler',
     'vagrant',
