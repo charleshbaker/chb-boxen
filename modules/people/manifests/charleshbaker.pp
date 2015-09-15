@@ -21,6 +21,7 @@ class people::charleshbaker {
     'hipchat',
     'iterm2',
     'quicksilver',
+    'rescuetime',
     'textwrangler',
     'vagrant',
     'virtualbox',
