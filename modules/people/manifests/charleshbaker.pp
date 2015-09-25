@@ -18,6 +18,7 @@ class people::charleshbaker {
     'firefox',
     'flux',
     'gimp',
+    'gitter',
     'hipchat',
     'iterm2',
     'quicksilver',
