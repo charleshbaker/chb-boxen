@@ -22,6 +22,7 @@ class people::charleshbaker {
     'iterm2',
     'quicksilver',
     'rescuetime',
+    'sourcetree',
     'textwrangler',
     'vagrant',
     'virtualbox',
