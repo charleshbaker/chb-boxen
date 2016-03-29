@@ -48,7 +48,7 @@ class people::charleshbaker {
     ensure => installed,
   }
   
-  package { ' jrnl':
+  package { 'jrnl':
     ensure => installed,
   }
 }
