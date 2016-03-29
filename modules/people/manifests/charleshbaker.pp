@@ -46,6 +46,9 @@ class people::charleshbaker {
   package { 'ipython':
     provider => pip,
     ensure => installed,
-#    require => Package['python']    
+  }
+  
+  package { ' jrnl':
+    ensure => present,
   }
 }
