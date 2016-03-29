@@ -43,4 +43,9 @@ class people::charleshbaker {
     provider     => 'brewcask',
   }
 
+  package { 'ipython':
+    provider => pip,
+    ensure => installed,
+    require => Package['python']    
+  }
 }
