@@ -25,6 +25,7 @@ class people::charleshbaker {
     'rescuetime',
     'slack',
     'sourcetree',
+    'spotify',
     'textwrangler',
     'vagrant',
     'virtualbox',
