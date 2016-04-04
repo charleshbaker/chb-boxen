@@ -53,4 +53,9 @@ class people::charleshbaker {
   package { 'jrnl':
     ensure => installed,
   }
+  
+  package { 'meld':
+    ensure => installed,
+  }
+
 }
